@@ -2,6 +2,7 @@
   "name": "gorillas-vr",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://frnpnk.github.io/gorillas-vr/",
   "dependencies": {
     "@react-three/drei": "^9.32.11",
     "@react-three/fiber": "^8.8.9",
@@ -15,6 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
