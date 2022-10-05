@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gorillas-vr/static/css/main.abd64e84.css",
+    "main.js": "/gorillas-vr/static/js/main.10917b56.js",
+    "index.html": "/gorillas-vr/index.html",
+    "main.abd64e84.css.map": "/gorillas-vr/static/css/main.abd64e84.css.map",
+    "main.10917b56.js.map": "/gorillas-vr/static/js/main.10917b56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.10917b56.js"
+  ]
+}
