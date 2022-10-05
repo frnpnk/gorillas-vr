@@ -4,9 +4,9 @@ const setPositions = (radio) => {
   };
 
   const xyArray = [];
-  for (let times = 1; times < radio; times++) {
+  for (let times = 0; times < radio; times++) {
     const xposition = times;
-    for (let times2 = 1; times2 < radio; times2++) {
+    for (let times2 = 0; times2 < radio; times2++) {
       if (pitagoras(xposition, times2) < radio) {
         xyArray.push([xposition, times2]);
       }
@@ -16,10 +16,10 @@ const setPositions = (radio) => {
 
   xyArray.forEach((e) => {
     completeArray.push(
-      [e[0], e[1] * -1],
-      [e[0] * -1, e[1] * -1],
-      [e[0] * -1, e[1]],
-      [e[0], e[1]]
+      [e[0], Math.random(),e[1] * -1],
+      [e[0] * -1,Math.random(),e[1] * -1],
+      [e[0] * -1,Math.random(), e[1]],
+      [e[0], Math.random(),e[1]]
     );
   });
 
