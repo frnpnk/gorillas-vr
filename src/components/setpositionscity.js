@@ -16,10 +16,10 @@ const setPositions = (radio) => {
 
   xyArray.forEach((e) => {
     completeArray.push(
-      [e[0], Math.random(),e[1] * -1],
-      [e[0] * -1,Math.random(),e[1] * -1],
-      [e[0] * -1,Math.random(), e[1]],
-      [e[0], Math.random(),e[1]]
+      [e[0]*10, Math.random()*10,e[1] * -1*10],
+      [e[0] * -1*10,Math.random()*10,e[1] * -1*10],
+      [e[0] * -1*10,Math.random()*10, e[1]*10],
+      [e[0]*10, Math.random()*10,e[1]*10]
     );
   });
 

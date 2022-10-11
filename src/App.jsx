@@ -26,7 +26,7 @@ function App() {
         </Suspense>
       
         <Stars count={1000} /> 
-        <OrbitControls autoRotate   enableZoom={true} enableRotate={true}/>
+        <OrbitControls autoRotate={false}   enableZoom={true} enableRotate={true}/>
       </ThreeScene>
     </div>
   );
